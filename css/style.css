@@ -1,0 +1,203 @@
+body {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../images/b4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+main {
+  flex: 1;
+}
+
+#Table-Ord {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+
+#Table-Ord th {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+#Table-Ord td {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+#Table-Ord td img {
+    width: 145px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20;
+}
+
+.card-content{
+    width: 250px;
+    text-align: center;
+    margin: 34px 75px 22px 75px;
+    background: white;
+    border-radius: 12px;
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.card-content:hover {
+    transform: scale(1.05) translateY(-8px);
+    box-shadow: 0 0 25px 25px #0c0c0c;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 270px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 20px;
+  background-color: #000000;
+  position: relative;
+}
+
+.logo-container img {
+  width: 130px;
+  height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#Create-Ord , #Ord-List{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 89px 372px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+}
+
+#Create-Ord input{
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 45%;
+    text-align: center;
+    font-size: 16px;
+}
+
+#Create-Ord button ,#Ord-List button{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 13px;
+    border: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#Create-Ord button {
+    margin: 20px;
+    width: 25%;
+}
+
+#Ord-List button{
+    margin-bottom: 30px;
+    width: 20%;
+}
+
+#Create-Ord button:hover ,#Ord-List button:hover {
+    transform: scale(1.09);
+    box-shadow: 0px 0px 10px;
+    text-shadow: 0px 0px 5px white;
+}
+
+a:hover{
+    transform: scale(1.09);
+    text-shadow: 0px 0px 5px white;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    color: #ccc;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  #Create-Ord, #Ord-List {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  #Create-Ord input{
+    width: 65%;
+    font-size: 14px;
+  }
+    #Create-Ord button,
+  #Ord-List button {
+      width: 30%;
+    font-size: 14px;
+  }
+
+  .card-content {
+    margin: 20px auto;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  #Table-Ord th, #Table-Ord td {
+    font-size: 12px;
+  }
+}

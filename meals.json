@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"One and a half broasted chicken",
+        "price":"14.00$",
+        "image":"images/Broasted chicken 1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Broasted chicken",
+        "price":"10.00$",
+        "image":"images/Broasted chicken 2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Half a broasted chicken",
+        "price":"7.00$",
+        "image":"images/Broasted chicken 3.jpg"
+    },
+    {
+        "id":4,
+        "name":"Chicken on charcoal",
+        "price":"16.00$",
+        "image":"images/grilled chicken 1.jpg"
+    },
+    {
+        "id":5,
+        "name":"Chicken on the grill",
+        "price":"20.00$",
+        "image":"images/grilled chicken 2.jpg"
+    },
+    {
+        "id":6,
+        "name":"Potatoes",
+        "price":"3.00$",
+        "image":"images/potatoes.jpg"
+    }
+]

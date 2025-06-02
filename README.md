@@ -10,4 +10,4 @@
 
 ## Project Link
 
-[https://j33ar.github.io/crazy-meal/](https://j33ar.github.io/crazy-meal/)
+[https://j33ar.github.io/Crazy-Meal/](https://j33ar.github.io/Crazy-Meal/)
